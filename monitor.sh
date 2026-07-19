@@ -1,4 +1,7 @@
 #!/bin/bash
+#Git Flow test
+echo "GitFlow workflow test branch: develop---two"
+
 
 #disk space
 Disk_Usage=$(df -h | grep "/dev/sdd" | awk '{print $5}' | sed "s/%//")
